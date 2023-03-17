@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <!-- Head -->
     {% include 'static/head.html' %}
-
 <body>
-     <!-- Spinner -->
-     {% include 'static/spinner.html' %}
-
-     <!-- Navbar -->
-     {% include 'static/navbar.html' %}
-
-
+    <!-- Spinner -->
+    {% include 'static/spinner.html' %}
+    <!-- Navbar -->
+    {% include 'static/navbar.html' %}
     <!-- Header Start -->
     {% include 'static/header.html' %}
-
-
     <!-- Contact Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -85,8 +78,6 @@
         </div>
     </div>
     <!-- Contact End -->
-
-
     <!-- Google Map Start -->
     <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
         <iframe class="w-100 mb-n2" style="height: 450px;"
@@ -94,17 +85,11 @@
             frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
     <!-- Google Map End -->
-
     <!-- Footer -->
     {% include 'static/footer.html' %}
-
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
+    {% include 'static/back-to-top.html' %}
     <!-- JavaScript Libraries -->
     {% include 'static/js-libs.html' %}
 </body>
-
 </html>

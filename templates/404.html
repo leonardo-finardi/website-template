@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <!-- Head -->
     {% include 'static/head.html' %}
-
 <body>
-
     <!-- Spinner -->
     {% include 'static/spinner.html' %}
-
     <!-- Navbar -->
     {% include 'static/navbar.html' %}
-
     <!-- Header Start -->
     {% include 'static/header.html' %}
-
-
     <!-- 404 Start -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container text-center">
@@ -31,21 +24,11 @@
             </div>
         </div>
     </div>
-    <!-- 404 End -->
-
-
     <!-- Footer -->
     {% include 'static/footer.html' %}
- 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
-            class="bi bi-arrow-up"></i></a>
-
-
+    {% include 'static/back-to-top.html' %}
     <!-- JavaScript Libraries -->
     {% include 'static/js-libs.html' %}
-    
 </body>
-
 </html>
